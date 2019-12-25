@@ -208,8 +208,11 @@ call <sid>hi("Title",         s:gui0D, "", s:cterm0D, "", "none", "")
 call <sid>hi("Conceal",       s:gui0D, s:gui00, s:cterm0D, s:cterm00, "", "")
 call <sid>hi("Cursor",        s:gui00, s:gui05, s:cterm00, s:cterm05, "", "")
 call <sid>hi("NonText",       s:gui03, "", s:cterm03, "", "", "")
-call <sid>hi("LineNr",        s:gui03, s:gui01, s:cterm03, s:cterm01, "", "")
-call <sid>hi("SignColumn",    s:gui03, s:gui01, s:cterm03, s:cterm01, "", "")
+" call <sid>hi("LineNr",        s:gui03, s:gui01, s:cterm03, s:cterm01, "", "")
+" call <sid>hi("SignColumn",    s:gui03, s:gui01, s:cterm03, s:cterm01, "", "")
+" remove the sign and line column background
+call <sid>hi("LineNr",        s:gui01, "none", s:cterm01, "none", "bold", "")
+call <sid>hi("SignColumn",    "none", "none", "none", "none", "bold", "")
 call <sid>hi("StatusLine",    s:gui04, s:gui02, s:cterm04, s:cterm02, "none", "")
 call <sid>hi("StatusLineNC",  s:gui03, s:gui01, s:cterm03, s:cterm01, "none", "")
 call <sid>hi("VertSplit",     s:gui02, s:gui02, s:cterm02, s:cterm02, "none", "")
@@ -300,10 +303,16 @@ call <sid>hi("gitcommitDiscardedFile",  s:gui08, "", s:cterm08, "", "bold", "")
 call <sid>hi("gitcommitSelectedFile",   s:gui0B, "", s:cterm0B, "", "bold", "")
 
 " GitGutter highlighting
-call <sid>hi("GitGutterAdd",     s:gui0B, s:gui01, s:cterm0B, s:cterm01, "", "")
-call <sid>hi("GitGutterChange",  s:gui0D, s:gui01, s:cterm0D, s:cterm01, "", "")
-call <sid>hi("GitGutterDelete",  s:gui08, s:gui01, s:cterm08, s:cterm01, "", "")
-call <sid>hi("GitGutterChangeDelete",  s:gui0E, s:gui01, s:cterm0E, s:cterm01, "", "")
+" call <sid>hi("GitGutterAdd",     s:gui0B, s:gui01, s:cterm0B, s:cterm01, "", "")
+" call <sid>hi("GitGutterChange",  s:gui0D, s:gui01, s:cterm0D, s:cterm01, "", "")
+" call <sid>hi("GitGutterDelete",  s:gui08, s:gui01, s:cterm08, s:cterm01, "", "")
+" call <sid>hi("GitGutterChangeDelete",  s:gui0E, s:gui01, s:cterm0E, s:cterm01, "", "")
+
+" remove background, make bold and change Changes to be yellow
+call <sid>hi("GitGutterAdd",           s:gui0B, "none", s:cterm0B, "none", "bold", "")
+call <sid>hi("GitGutterChange",        s:gui0A, "none", s:cterm0A, "none", "bold", "")
+call <sid>hi("GitGutterDelete",        s:gui08, "none", s:cterm08, "none", "bold", "")
+call <sid>hi("GitGutterChangeDelete",  s:gui0A, "none", s:cterm0A, "none", "bold", "")
 
 " HTML highlighting
 call <sid>hi("htmlBold",    s:gui0A, "", s:cterm0A, "", "", "")
@@ -404,6 +413,13 @@ call <sid>hi("StartifySpecial",  s:gui03, "", s:cterm03, "", "", "")
 
 " Java highlighting
 call <sid>hi("javaOperator",     s:gui0D, "", s:cterm0D, "", "", "")
+
+" https://github.com/neoclide/coc.nvim/wiki/Multiple-cursors-support
+call <sid>hi("CocCursorRange",       s:gui00, s:gui0A, s:cterm00, s:cterm0A, "bold", "")
+call <sid>hi("CocUnderline",         "", "", "", "", "underline", "")
+call <sid>hi("CocErrorHighlight",    s:gui00, s:gui08, s:cterm00, s:cterm08, "undercurl", "")
+call <sid>hi("CocWarningHighlight",  s:gui00, s:gui0A, s:cterm00, s:cterm0A, "underline", "")
+
 
 " Remove functions
 delf <sid>hi
