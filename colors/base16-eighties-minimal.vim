@@ -422,10 +422,10 @@ call <sid>hi("CocErrorHighlight",    s:gui00, s:gui08, s:cterm00, s:cterm08, "un
 call <sid>hi("CocWarningHighlight",  s:gui00, s:gui0A, s:cterm00, s:cterm0A, "underline", "")
 
 " https://github.com/rhysd/git-messenger.vim/blob/master/syntax/gitmessengerpopup.vim
-call <sid>hi("gitmessengerPopupNormal", s:gui05, s:gui00, s:cterm05, s:cterm00, "none", "")
-call <sid>hi("gitmessengerHeader",      s:gui0D, s:gui00, s:cterm0D, s:cterm00, "bold", "")
-call <sid>hi("gitmessengerHash",        s:gui0B, s:gui00, s:cterm0B, s:cterm00, "bold", "")
-call <sid>hi("gitmessengerHistory",     s:gui08, s:gui00, s:cterm08, s:cterm00, "bold", "")
+call <sid>hi("gitmessengerPopupNormal", s:gui05, s:gui01, s:cterm05, s:cterm01, "none", "")
+call <sid>hi("gitmessengerHeader",      s:gui0D, s:gui01, s:cterm0D, s:cterm01, "bold", "")
+call <sid>hi("gitmessengerHash",        s:gui0B, s:gui01, s:cterm0B, s:cterm01, "bold", "")
+call <sid>hi("gitmessengerHistory",     s:gui08, s:gui01, s:cterm08, s:cterm01, "bold", "")
 
 " Remove functions
 delf <sid>hi
