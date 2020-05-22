@@ -15,40 +15,41 @@ if !has("gui_running")
 endif
 
 " GUI color definitions
-let s:gui00        = "2d2d2d"
-let g:base16_gui00 = "2d2d2d"
-let s:gui01        = "393939"
-let g:base16_gui01 = "393939"
-let s:gui02        = "515151"
-let g:base16_gui02 = "515151"
-let s:gui03        = "747369"
-let g:base16_gui03 = "747369"
-let s:gui04        = "a09f93"
-let g:base16_gui04 = "a09f93"
-let s:gui05        = "d3d0c8"
-let g:base16_gui05 = "d3d0c8"
-let s:gui06        = "e8e6df"
-let g:base16_gui06 = "e8e6df"
-let s:gui07        = "f2f0ec"
-let g:base16_gui07 = "f2f0ec"
-let s:gui08        = "f2777a"
-let g:base16_gui08 = "f2777a"
-let s:gui09        = "f99157"
-let g:base16_gui09 = "f99157"
-let s:gui0A        = "ffcc66"
-let g:base16_gui0A = "ffcc66"
-let s:gui0B        = "99cc99"
-let g:base16_gui0B = "99cc99"
-let s:gui0C        = "66cccc"
-let g:base16_gui0C = "66cccc"
-let s:gui0D        = "6699cc"
-let g:base16_gui0D = "6699cc"
-let s:gui0E        = "cc99cc"
-let g:base16_gui0E = "cc99cc"
-let s:gui0F        = "d27b53"
-let g:base16_gui0F = "d27b53"
+let s:gui00        = "2d2d2d" " #2d2d2d
+let g:base16_gui00 = "2d2d2d" " #2d2d2d
+let s:gui01        = "393939" " #393939
+let g:base16_gui01 = "393939" " #393939
+let s:gui02        = "515151" " #515151
+let g:base16_gui02 = "515151" " #515151
+let s:gui03        = "747369" " #747369
+let g:base16_gui03 = "747369" " #747369
+let s:gui04        = "a09f93" " #a09f93
+let g:base16_gui04 = "a09f93" " #a09f93
+let s:gui05        = "d3d0c8" " #d3d0c8
+let g:base16_gui05 = "d3d0c8" " #d3d0c8
+let s:gui06        = "e8e6df" " #e8e6df
+let g:base16_gui06 = "e8e6df" " #e8e6df
+let s:gui07        = "f2f0ec" " #f2f0ec
+let g:base16_gui07 = "f2f0ec" " #f2f0ec
+let s:gui08        = "f2777a" " #f2777a
+let g:base16_gui08 = "f2777a" " #f2777a
+let s:gui09        = "f99157" " #f99157
+let g:base16_gui09 = "f99157" " #f99157
+let s:gui0A        = "ffcc66" " #ffcc66
+let g:base16_gui0A = "ffcc66" " #ffcc66
+let s:gui0B        = "99cc99" " #99cc99
+let g:base16_gui0B = "99cc99" " #99cc99
+let s:gui0C        = "66cccc" " #66cccc
+let g:base16_gui0C = "66cccc" " #66cccc
+let s:gui0D        = "6699cc" " #6699cc
+let g:base16_gui0D = "6699cc" " #6699cc
+let s:gui0E        = "cc99cc" " #cc99cc
+let g:base16_gui0E = "cc99cc" " #cc99cc
+let s:gui0F        = "d27b53" " #d27b53
+let g:base16_gui0F = "d27b53" " #d27b53
 
 " Terminal color definitions
+" https://vim.fandom.com/wiki/Xterm256_color_names_for_console_Vim
 let s:cterm00        = "00"
 let g:base16_cterm00 = "00"
 let s:cterm03        = "08"
@@ -276,14 +277,14 @@ call <sid>hi("cssClassName",   s:gui0E, "", s:cterm0E, "", "", "")
 call <sid>hi("cssColor",       s:gui0C, "", s:cterm0C, "", "", "")
 
 " Diff highlighting
-call <sid>hi("DiffAdd",      s:gui0B, s:gui01,  s:cterm0B, s:cterm01, "", "")
-call <sid>hi("DiffChange",   s:gui03, s:gui01,  s:cterm03, s:cterm01, "", "")
-call <sid>hi("DiffDelete",   s:gui08, s:gui01,  s:cterm08, s:cterm01, "", "")
-call <sid>hi("DiffText",     s:gui0D, s:gui01,  s:cterm0D, s:cterm01, "", "")
+call <sid>hi("DiffAdd",      s:gui01, s:gui0B,  s:cterm01, s:cterm0B, "bold", "")
+call <sid>hi("DiffChange",   s:gui03, s:gui0A,  s:cterm03, s:cterm0A, "", "")
+call <sid>hi("DiffDelete",   s:gui08, s:gui08,  s:cterm08, s:cterm08, "", "")
+call <sid>hi("DiffText",     s:gui00, s:gui0A,  s:cterm00, s:cterm0A, "bold", "")
 call <sid>hi("DiffAdded",    s:gui0B, s:gui00,  s:cterm0B, s:cterm00, "", "")
 call <sid>hi("DiffFile",     s:gui08, s:gui00,  s:cterm08, s:cterm00, "", "")
 call <sid>hi("DiffNewFile",  s:gui0B, s:gui00,  s:cterm0B, s:cterm00, "", "")
-call <sid>hi("DiffLine",     s:gui0D, s:gui00,  s:cterm0D, s:cterm00, "", "")
+call <sid>hi("DiffLine",     s:gui0D, s:gui0A,  s:cterm0D, s:cterm0A, "", "")
 call <sid>hi("DiffRemoved",  s:gui08, s:gui00,  s:cterm08, s:cterm00, "", "")
 
 " Git highlighting
