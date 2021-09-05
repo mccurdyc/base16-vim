@@ -201,7 +201,7 @@ call <sid>hi("Substitute",    s:gui01, s:gui0A, s:cterm01, s:cterm0A, "none", ""
 call <sid>hi("SpecialKey",    s:gui03, "", s:cterm03, "", "", "")
 call <sid>hi("TooLong",       s:gui08, "", s:cterm08, "", "", "")
 call <sid>hi("Underlined",    s:gui08, "", s:cterm08, "", "", "")
-call <sid>hi("Visual",        "", s:gui01, "", s:cterm01, "", "")
+call <sid>hi("Visual",        "", s:gui04, "", s:cterm04, "", "")
 call <sid>hi("VisualNOS",     s:gui08, "", s:cterm08, "", "", "")
 call <sid>hi("WarningMsg",    s:gui08, "", s:cterm08, "", "", "")
 call <sid>hi("WildMenu",      s:gui08, s:gui0A, s:cterm08, "", "", "")
@@ -277,9 +277,9 @@ call <sid>hi("cssClassName",   s:gui0E, "", s:cterm0E, "", "", "")
 call <sid>hi("cssColor",       s:gui0C, "", s:cterm0C, "", "", "")
 
 " Diff highlighting (and git mergetool)
-call <sid>hi("DiffAdd",      s:gui01, s:gui0B,  s:cterm01, s:cterm0B, "", "")
+call <sid>hi("DiffAdd",      s:gui00, s:gui0B,  s:cterm00, s:cterm0B, "", "")
 call <sid>hi("DiffChange",   s:gui00, s:gui02,  s:cterm00, s:cterm02, "", "")
-call <sid>hi("DiffDelete",   s:gui01, s:gui08,  s:cterm01, s:cterm08, "", "")
+call <sid>hi("DiffDelete",   s:gui00, s:gui08,  s:cterm00, s:cterm08, "", "")
 call <sid>hi("DiffText",     s:gui0A, s:gui02,  s:cterm0A, s:cterm02, "bold", "")
 call <sid>hi("DiffAdded",    s:gui0B, s:gui00,  s:cterm0B, s:cterm00, "", "")
 call <sid>hi("DiffFile",     s:gui08, s:gui00,  s:cterm08, s:cterm00, "", "")
@@ -421,6 +421,12 @@ call <sid>hi("CocCursorRange",       s:gui00, s:gui0A, s:cterm00, s:cterm0A, "bo
 call <sid>hi("CocUnderline",         "", "", "", "", "underline", "")
 call <sid>hi("CocErrorHighlight",    s:gui00, s:gui08, s:cterm00, s:cterm08, "undercurl", "")
 call <sid>hi("CocWarningHighlight",  s:gui00, s:gui0A, s:cterm00, s:cterm0A, "underline", "")
+
+" https://github.com/dense-analysis/ale#faq-change-signs
+call <sid>hi("ALEWarning",      s:gui00, s:gui0A, s:cterm00, s:cterm0A, "", "")
+call <sid>hi("ALEError",        s:gui00, s:gui08, s:cterm00, s:cterm08, "", "")
+call <sid>hi("ALEWarningSign",  s:gui0A, s:gui00, s:cterm0A, s:cterm00, "bold", "")
+call <sid>hi("ALEErrorSign",    s:gui08, s:gui00, s:cterm08, s:cterm00, "bold", "")
 
 " https://github.com/rhysd/git-messenger.vim/blob/master/syntax/gitmessengerpopup.vim
 call <sid>hi("gitmessengerPopupNormal", s:gui05, s:gui01, s:cterm05, s:cterm01, "none", "")
