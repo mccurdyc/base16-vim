@@ -401,27 +401,6 @@ call <sid>hi("SpellLocal",   "", "", "", "", "undercurl", s:gui0C)
 call <sid>hi("SpellCap",     "", "", "", "", "undercurl", s:gui0D)
 call <sid>hi("SpellRare",    "", "", "", "", "undercurl", s:gui0E)
 
-" Startify highlighting
-call <sid>hi("StartifyBracket",  s:gui03, "", s:cterm03, "", "", "")
-call <sid>hi("StartifyFile",     s:gui07, "", s:cterm07, "", "", "")
-call <sid>hi("StartifyFooter",   s:gui03, "", s:cterm03, "", "", "")
-call <sid>hi("StartifyHeader",   s:gui0B, "", s:cterm0B, "", "", "")
-call <sid>hi("StartifyNumber",   s:gui09, "", s:cterm09, "", "", "")
-call <sid>hi("StartifyPath",     s:gui03, "", s:cterm03, "", "", "")
-call <sid>hi("StartifySection",  s:gui0E, "", s:cterm0E, "", "", "")
-call <sid>hi("StartifySelect",   s:gui0C, "", s:cterm0C, "", "", "")
-call <sid>hi("StartifySlash",    s:gui03, "", s:cterm03, "", "", "")
-call <sid>hi("StartifySpecial",  s:gui03, "", s:cterm03, "", "", "")
-
-" Java highlighting
-call <sid>hi("javaOperator",     s:gui0D, "", s:cterm0D, "", "", "")
-
-" https://github.com/neoclide/coc.nvim/wiki/Multiple-cursors-support
-call <sid>hi("CocCursorRange",       s:gui00, s:gui0A, s:cterm00, s:cterm0A, "bold", "")
-call <sid>hi("CocUnderline",         "", "", "", "", "underline", "")
-call <sid>hi("CocErrorHighlight",    s:gui00, s:gui08, s:cterm00, s:cterm08, "undercurl", "")
-call <sid>hi("CocWarningHighlight",  s:gui00, s:gui0A, s:cterm00, s:cterm0A, "underline", "")
-
 " https://github.com/dense-analysis/ale#faq-change-signs
 call <sid>hi("ALEWarning",      s:gui00, s:gui0A, s:cterm00, s:cterm0A, "", "")
 call <sid>hi("ALEError",        s:gui00, s:gui08, s:cterm00, s:cterm08, "", "")
