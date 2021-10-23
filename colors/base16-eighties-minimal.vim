@@ -402,8 +402,8 @@ call <sid>hi("SpellCap",     "", "", "", "", "undercurl", s:gui0D)
 call <sid>hi("SpellRare",    "", "", "", "", "undercurl", s:gui0E)
 
 " https://github.com/dense-analysis/ale#faq-change-signs
-call <sid>hi("ALEWarning",      "", "", "", "", "undercurl", s:gui0A)
-call <sid>hi("ALEError",        "", "", "", "", "undercurl", s:gui08)
+call <sid>hi("ALEWarning",      "", s:gui0A, "", s:cterm0A, "", "")
+call <sid>hi("ALEError",        "", s:gui08, "", s:cterm08, "", "")
 call <sid>hi("ALEWarningSign",  s:gui0A, s:gui00, s:cterm0A, s:cterm00, "bold", "")
 call <sid>hi("ALEErrorSign",    s:gui08, s:gui00, s:cterm08, s:cterm00, "bold", "")
 
