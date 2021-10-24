@@ -407,6 +407,10 @@ call <sid>hi("ALEError",        "", "", "", "", "underline", "#f2777a")
 call <sid>hi("ALEWarningSign",  s:gui0A, s:gui00, s:cterm0A, s:cterm00, "bold", "")
 call <sid>hi("ALEErrorSign",    s:gui08, s:gui00, s:cterm08, s:cterm00, "bold", "")
 
+" https://github.com/mfussenegger/nvim-dap/blob/master/doc/dap.txt
+call <sid>hi("DapBreakpoint",      "", "", "", "", "", "#ffcc66")
+call <sid>hi("DapStopped",        "", "", "", "", "", "#f2777a")
+
 " https://github.com/rhysd/git-messenger.vim/blob/master/syntax/gitmessengerpopup.vim
 call <sid>hi("gitmessengerPopupNormal", s:gui05, s:gui01, s:cterm05, s:cterm01, "none", "")
 call <sid>hi("gitmessengerHeader",      s:gui0D, s:gui01, s:cterm0D, s:cterm01, "bold", "")
