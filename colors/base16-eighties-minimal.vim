@@ -408,9 +408,9 @@ call <sid>hi("ALEWarningSign",  s:gui0A, s:gui00, s:cterm0A, s:cterm00, "bold", 
 call <sid>hi("ALEErrorSign",    s:gui08, s:gui00, s:cterm08, s:cterm00, "bold", "")
 
 # https://github.com/folke/trouble.nvim#-colors
-call <sid>hi("TroubleSignWarning",      "", "", "", "", "", "#ffcc66")
+call <sid>hi("TroubleSignWarning",  "", "", "", "", "", "#ffcc66")
 call <sid>hi("TroubleWarning",      "", "", "", "", "underline", "#ffcc66")
-call <sid>hi("TroubleSignError",        "", "", "", "", "", "#f2777a")
+call <sid>hi("TroubleSignError",    "", "", "", "", "", "#f2777a")
 call <sid>hi("TroubleError",        "", "", "", "", "underline", "#f2777a")
 
 " https://github.com/mfussenegger/nvim-dap/blob/master/doc/dap.txt
