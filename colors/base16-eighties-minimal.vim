@@ -413,6 +413,11 @@ call <sid>hi("TroubleWarning",      "", "", "", "", "underline", "#ffcc66")
 call <sid>hi("TroubleSignError",    "", "", "", "", "", "#f2777a")
 call <sid>hi("TroubleError",        "", "", "", "", "underline", "#f2777a")
 
+call <sid>hi("DiagnosticWarning",  "", "", "", "", "", "#ffcc66")
+call <sid>hi("DiagnosticError",    "", "", "", "", "underline", "#f2777a")
+call <sid>hi("DiagnosticInfo",     "", "", "", "", "underline", "#a09f93")
+call <sid>hi("DiagnosticHint",     "", "", "", "", "underline", "#a09f93")
+
 " https://github.com/mfussenegger/nvim-dap/blob/master/doc/dap.txt
 call <sid>hi("DapBreakpoint", s:gui0A, s:gui00, s:cterm0A, s:cterm00, "bold", "")
 call <sid>hi("DapStopped",    s:gui08, s:gui00, s:cterm08, s:cterm00, "bold", "")
