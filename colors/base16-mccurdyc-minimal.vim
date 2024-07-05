@@ -549,12 +549,6 @@ call <sid>hi("ALEError",        "", "", "", "", "underline", "#ff5f5f")
 call <sid>hi("ALEWarningSign",  s:gui0A, s:gui00, s:cterm0A, s:cterm00, "bold", "")
 call <sid>hi("ALEErrorSign",    s:gui08, s:gui00, s:cterm08, s:cterm00, "bold", "")
 
-" https://github.com/folke/trouble.nvim#-colors
-call <sid>hi("TroubleSignWarning",  "", "", "", "", "", "#ffa500")
-call <sid>hi("TroubleWarning",      "", "", "", "", "underline", "#ffa500")
-call <sid>hi("TroubleSignError",    "", "", "", "", "", "#ff5f5f")
-call <sid>hi("TroubleError",        "", "", "", "", "underline", "#ff5f5f")
-
 call <sid>hi("DiagnosticWarning",  "", "", "", "", "", "#ffa500")
 call <sid>hi("DiagnosticError",    "", "", "", "", "underline", "#ff5f5f")
 call <sid>hi("DiagnosticInfo",     "", "", "", "", "underline", "#e4e4e4")
