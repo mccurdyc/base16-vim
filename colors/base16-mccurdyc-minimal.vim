@@ -569,7 +569,8 @@ call <sid>hi("gitmessengerHeader",      s:gui0D, s:gui01, s:cterm0D, s:cterm01, 
 call <sid>hi("gitmessengerHash",        s:gui0B, s:gui01, s:cterm0B, s:cterm01, "bold", "")
 call <sid>hi("gitmessengerHistory",     s:gui08, s:gui01, s:cterm08, s:cterm01, "bold", "")
 
-call <sid>hi("RainbowDelimiterNormal", s:gui01, "", s:cterm01, "", "", "")
+call <sid>hi("RainbowDelimiter", s:gui02, "", s:cterm04, "", "", "")
+call <sid>hi("RainbowDelimiterNormal", s:gui02, "", s:cterm04, "", "", "")
 call <sid>hi("RainbowDelimiterRed", s:gui08, "", s:cterm08, "", "", "")
 call <sid>hi("RainbowDelimiterOrange", s:gui09, "", s:cterm09, "", "", "")
 
