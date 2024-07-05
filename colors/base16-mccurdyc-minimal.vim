@@ -569,9 +569,9 @@ call <sid>hi("gitmessengerHeader",      s:gui0D, s:gui01, s:cterm0D, s:cterm01, 
 call <sid>hi("gitmessengerHash",        s:gui0B, s:gui01, s:cterm0B, s:cterm01, "bold", "")
 call <sid>hi("gitmessengerHistory",     s:gui08, s:gui01, s:cterm08, s:cterm01, "bold", "")
 
-call <sid>hi("RainbowDelimiterNormal", "", s:gui05, "", s:cterm05, "", "")
-call <sid>hi("RainbowDelimiterRed", "", s:gui08, "", s:cterm08, "", "")
-call <sid>hi("RainbowDelimiterOrange", "", s:gui09, "", s:cterm09, "", "")
+call <sid>hi("RainbowDelimiterNormal", s:gui05, "", s:cterm05, "", "", "")
+call <sid>hi("RainbowDelimiterRed", s:gui08, "", s:cterm08, "", "", "")
+call <sid>hi("RainbowDelimiterOrange", s:gui09, "", s:cterm09, "", "", "")
 
 " Remove functions
 delf <sid>hi
