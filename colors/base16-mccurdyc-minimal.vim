@@ -543,12 +543,6 @@ call <sid>hi("SpellLocal",   "", "", "", "", "undercurl", s:gui0C)
 call <sid>hi("SpellCap",     "", "", "", "", "undercurl", s:gui0D)
 call <sid>hi("SpellRare",    "", "", "", "", "undercurl", s:gui0E)
 
-" https://github.com/dense-analysis/ale#faq-change-signs
-call <sid>hi("ALEWarning",      "", "", "", "", "underline", "#ffa500")
-call <sid>hi("ALEError",        "", "", "", "", "underline", "#ff5f5f")
-call <sid>hi("ALEWarningSign",  s:gui0A, s:gui00, s:cterm0A, s:cterm00, "bold", "")
-call <sid>hi("ALEErrorSign",    s:gui08, s:gui00, s:cterm08, s:cterm00, "bold", "")
-
 call <sid>hi("DiagnosticWarning",  "", "", "", "", "", "#ffa500")
 call <sid>hi("DiagnosticError",    "", "", "", "", "underline", "#ff5f5f")
 call <sid>hi("DiagnosticInfo",     "", "", "", "", "underline", "#e4e4e4")
