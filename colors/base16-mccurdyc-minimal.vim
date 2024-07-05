@@ -14,7 +14,7 @@ if !has("gui_running")
   endif
 endif
 
-" mccurdyc-theme
+" mccurdyc-minimal-theme
 " black (Grey11) (background) #1c1c1c ctermfg=234 gui00
 " really dark gray (Grey15) (comment) ->#262626 ctermfg=235 gui01
 " dark grey (Grey30) (comment) -> #4e4e4e ctermfg=29 gui02
@@ -569,8 +569,7 @@ call <sid>hi("gitmessengerHeader",      s:gui0D, s:gui01, s:cterm0D, s:cterm01, 
 call <sid>hi("gitmessengerHash",        s:gui0B, s:gui01, s:cterm0B, s:cterm01, "bold", "")
 call <sid>hi("gitmessengerHistory",     s:gui08, s:gui01, s:cterm08, s:cterm01, "bold", "")
 
-call <sid>hi("RainbowDelimiterCyan", s:gui05, "", s:cterm05, "", "", "")
-call <sid>hi("RainbowDelimiterNormal", s:gui05, "", s:cterm05, "", "", "")
+call <sid>hi("RainbowDelimiterNormal", s:gui01, "", s:cterm01, "", "", "")
 call <sid>hi("RainbowDelimiterRed", s:gui08, "", s:cterm08, "", "", "")
 call <sid>hi("RainbowDelimiterOrange", s:gui09, "", s:cterm09, "", "", "")
 
