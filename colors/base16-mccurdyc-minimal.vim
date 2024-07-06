@@ -196,7 +196,7 @@ call <sid>hi("Conceal",       s:gui0D, s:gui00, s:cterm0D, s:cterm00, "", "")
 call <sid>hi("Cursor",        s:gui08, s:gui0E, s:cterm08, s:cterm0E, "", "")
 call <sid>hi("NonText",       s:gui09, "", s:cterm09, "", "", "")
 " remove the sign and line column background
-call <sid>hi("LineNr",        s:gui0A, "none", s:cterm0A, "none", "bold", "")
+call <sid>hi("LineNr",        s:gui09, "none", s:cterm09, "none", "bold", "")
 call <sid>hi("SignColumn",    "none", "none", "none", "none", "bold", "")
 call <sid>hi("StatusLine",    s:gui01, s:gui09, s:cterm01, s:cterm09, "none", "")
 call <sid>hi("StatusLineNC",  s:gui01, s:gui09, s:cterm01, s:cterm09, "none", "")
