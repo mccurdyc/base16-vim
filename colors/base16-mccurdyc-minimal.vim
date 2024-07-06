@@ -18,9 +18,9 @@
 " 0A - #4e4e4e dark grey (Grey30) (more important than comment) ctermfg=29
 " 0B - #9e9e9e (247_Grey62) ctermfg=247
 " 0C - #d3d0c8 (252_Grey82) ctermfg=252
-" OD - #e4e4e4 light grey (Grey89) (foreground) ctermfg=254
-" OE - #eeeeee "white" (Grey93) (foreground) ctermfg=255
-" OF - #ffffff pure white (White) ctermfg=16
+" 0D - #e4e4e4 light grey (Grey89) (foreground) ctermfg=254
+" 0E - #eeeeee "white" (Grey93) (foreground) ctermfg=255
+" 0F - #ffffff pure white (White) ctermfg=16
 
 " GUI color definitions
 " Color
@@ -38,9 +38,9 @@ let s:gui09 = "#262626"
 let s:gui0A = "#4e4e4e"
 let s:gui0B = "#9e9e9e"
 let s:gui0C = "#d3d0c8"
-let s:guiOD = "#e4e4e4"
-let s:guiOE = "#eeeeee"
-let s:guiOF = "#ffffff"
+let s:gui0D = "#e4e4e4"
+let s:gui0E = "#eeeeee"
+let s:gui0F = "#ffffff"
 
 " Cterm color definitions
 " Color
