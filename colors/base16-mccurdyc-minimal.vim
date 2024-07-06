@@ -267,7 +267,7 @@ call <sid>hi("DapBreakpoint", s:gui02, s:gui08, s:cterm02, s:cterm08, "bold", ""
 call <sid>hi("DapStopped",    s:gui00, s:gui08, s:cterm00, s:cterm08, "bold", "")
 
 " https://github.com/rhysd/git-messenger.vim/blob/master/syntax/gitmessengerpopup.vim
-call <sid>hi("gitmessengerPopupNormal", s:gui05, s:gui01, s:cterm05, s:cterm01, "none", "")
+call <sid>hi("gitmessengerPopupNormal", s:gui02, s:gui01, s:cterm02, s:cterm01, "none", "")
 call <sid>hi("gitmessengerHeader",      s:gui0D, s:gui01, s:cterm0D, s:cterm01, "bold", "")
 call <sid>hi("gitmessengerHash",        s:gui0B, s:gui01, s:cterm0B, s:cterm01, "bold", "")
 call <sid>hi("gitmessengerHistory",     s:gui08, s:gui01, s:cterm08, s:cterm01, "bold", "")
