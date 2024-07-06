@@ -203,7 +203,7 @@ call <sid>hi("StatusLineNC",  s:gui01, s:gui09, s:cterm01, s:cterm09, "none", ""
 call <sid>hi("VertSplit",     s:gui02, s:gui09, s:cterm02, s:cterm09, "none", "")
 call <sid>hi("ColorColumn",   "", s:gui09, "", s:cterm09, "", "")
 call <sid>hi("CursorColumn",  "", s:gui08, "", s:cterm08, "", "")
-call <sid>hi("CursorLine",    s:gui08, s:gui01, s:cterm08, s:cterm01, "bold", "") " PMenu select
+call <sid>hi("CursorLine",    "", s:gui09, "", s:cterm09, "bold", "")
 call <sid>hi("CursorLineNr",  s:gui0A, s:gui08, s:cterm0A, s:cterm08, "bold", "")
 call <sid>hi("QuickFixLine",  "", s:gui0A, "", s:cterm0A, "bold", "")
 call <sid>hi("PMenu",         s:gui0C, s:gui09, s:cterm0C, s:cterm09, "none", "")
