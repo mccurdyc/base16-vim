@@ -213,7 +213,7 @@ call <sid>hi("TabLineFill",   s:gui03, s:gui01, s:cterm03, s:cterm01, "none", ""
 call <sid>hi("TabLineSel",    s:gui0B, s:gui01, s:cterm0B, s:cterm01, "none", "")
 
 call <sid>hi("FloatBorder", s:gui01, s:gui09, s:cterm01, s:cterm09, "bold", "")
-call <sid>hi("NormalFloat", s:gui0C, s:gui09, s:cterm0C, s:cterm09, "", "")
+call <sid>hi("NormalFloat", "", s:gui09, "", s:cterm09, "", "")
 
 " Diff highlighting (and git mergetool)
 call <sid>hi("DiffAdd",      s:gui08, s:gui02,  s:cterm00, s:cterm0B, "", "")
