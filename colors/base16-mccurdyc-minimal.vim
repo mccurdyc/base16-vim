@@ -187,7 +187,7 @@ call <sid>hi("Substitute",    s:gui08, s:gui01, s:cterm08, s:cterm01, "none", ""
 call <sid>hi("SpecialKey",    s:gui02, "", s:cterm02, "", "", "")
 call <sid>hi("TooLong",       s:gui02, "", s:cterm02, "", "", "")
 call <sid>hi("Underlined",    s:gui01, "", s:cterm01, "", "", "")
-call <sid>hi("Visual",        "", s:gui0C, "", s:cterm0C, "italic", "")
+call <sid>hi("Visual",        "", s:gui0B, "", s:cterm0B, "italic", "")
 call <sid>hi("VisualNOS",     s:gui01, "", s:cterm01, "", "", "")
 call <sid>hi("WarningMsg",    s:gui01, "", s:cterm01, "", "", "")
 call <sid>hi("WildMenu",      s:gui08, s:gui0A, s:cterm08, "", "", "")
