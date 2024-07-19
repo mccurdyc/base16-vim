@@ -193,6 +193,7 @@ call <sid>hi("WarningMsg",    s:gui01, "", s:cterm01, "", "", "")
 call <sid>hi("WildMenu",      s:gui08, s:gui0A, s:cterm08, "", "", "")
 call <sid>hi("Title",         s:gui0D, "", s:cterm0D, "", "none", "")
 call <sid>hi("Conceal",       s:gui0D, s:gui00, s:cterm0D, s:cterm00, "", "")
+call <sid>hi("jsonQuote",     "none", "none", "none", "none", "", "")
 call <sid>hi("Cursor",        s:gui08, s:gui0E, s:cterm08, s:cterm0E, "", "")
 call <sid>hi("NonText",       s:gui09, "", s:cterm09, "", "", "")
 " remove the sign and line column background
