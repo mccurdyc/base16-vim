@@ -255,6 +255,9 @@ call <sid>hi("GitGutterChangeDelete",  s:gui00, "none", s:cterm00, "none", "bold
 call <sid>hi("NERDTreeDirSlash",  s:gui01, "", s:cterm01, "", "", "")
 call <sid>hi("NERDTreeExecFile",  s:gui01, "", s:cterm01, "", "", "")
 
+" FZFLua
+call <sid>hi("FzfLuaNormal", s:gui0E, s:gui08, s:cterm0E, s:cterm08, "", "")
+
 " Spelling highlighting
 call <sid>hi("SpellBad",     "", "", "", "", "undercurl", s:gui01)
 
